@@ -1,0 +1,35 @@
+Why Not use local computers/laptops to host the websites?
+1) I have to keep my laptop/computer on all times
+2) I have to make sure its secure all the time
+3) I have to make sure my laptop/desktop is always connected to power and internet
+For these reasons, we use servers:
+Always connected to power and high speed internet
+Special layers of physical security
+
+SDLC:
+1) BA collects the requirements from Client and creates software requirement specification SRS/BRS
+2) Architects will create the software design document
+3) Developers develop the code on local computers/laptops once once ready,
+they run test cases and once all the test cases are passed they will request the IT department to deploy this code to Dev Server
+4) QA will request IT or devops team to deploy the code on QA servers
+QA will verify the change and start testing it.
+5) If required, an application is delayed on performance and security servers.
+6) Once everything is tested on QA server, application is deployed on staging server.
+7) Once testing is completed on staging it will be deployed on UAT servers
+8) Finally it is deployed on Production server
+
+Jenkins picks up code from github, if there are issues, sends code to developer and sends email after each commit
+
+Emails us and developer is there is a test that is not passing
+
+
+A lot of companies using Jenkins
+
+
+Jenkins
+http://jenkins.syntaxtechs.net:8080/login?from=%2F
+user - admin pwd - admin
+
+
+
+
